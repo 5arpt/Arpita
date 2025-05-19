@@ -94,3 +94,49 @@ int main() {
 
     return 0;
 }
+
+
+Output:
+Menu:
+1. Write to file
+2. Append to file
+3. Read from file
+4. Exit
+Enter your choice: 1
+Enter text to write to the file (end with a single line containing only 'END'):
+This is the first line:
+Hello!
+END
+Data written successfully.
+
+Menu:
+1. Write to file
+2. Append to file
+3. Read from file
+4. Exit
+Enter your choice: 2
+Enter text to append to the file (end with a single line containing only 'END'):
+This the appended line
+Jack Here
+END
+Data appended successfully.
+
+Menu:
+1. Write to file
+2. Append to file
+3. Read from file
+4. Exit
+Enter your choice: 3
+Contents of the file:
+This is the first line:
+Hello!
+This the appended line
+Jack Here
+
+Menu:
+1. Write to file
+2. Append to file
+3. Read from file
+4. Exit
+Enter your choice: 4
+Exiting program.
